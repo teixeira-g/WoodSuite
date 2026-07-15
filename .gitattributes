@@ -1,0 +1,10 @@
+#Define o comportamento padrão do Git para todos os arquivos
+* text=auto
+
+#Garante que arquivos de script do Windows sempre usem CRLF
+*.cmd text eol=crlf
+*.bat text eol=crlf
+
+#Garante que scripts de Linux/Mac sempre usem LF
+*.sh text eol=lf
+mvnw text eol=lf
